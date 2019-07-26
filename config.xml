@@ -24,7 +24,11 @@
         <splash qualifier="" src="Splash.png" />
    	</platform>
 	
-	
+	<platform name="ios">
+	<icon qualifier="xxxhdpi" src="Icon.png" />
+        <splash qualifier="" src="Splash.png" />
+	</platform>
+		
 <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
 
 <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
