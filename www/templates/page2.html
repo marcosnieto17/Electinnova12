@@ -1,0 +1,22 @@
+<ion-view title="" id="page2">
+  <ion-content padding="true" class="has-header">
+    <div style="margin-left: -10px; width: calc(100% + 20px);">
+      <img src="img/Oghd7n5oQoqnZvkXpPVp_DondeVotamos.png" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <div class="spacer" style="width: 300px; height: 20px;"></div>
+    <a href-inappbrowser="https://www.padron.gob.ar/" id="page2-button2" style="border-radius:15px 15px 15px 15px;" class="button button-assertive button-large button-block icon ion-android-search"> Consultar Padrón</a>
+    <div class="spacer" style="width: 300px; height: 20px;"></div>
+    <div>
+      <p class="header-subtitulo" style="text-align: center;">Padrón Definitivo
+        <span class="hidden-xs">&nbsp;- Elecciones Primarias Nacionales</span>
+      </p>
+      <p class="fecha-eleccion" style="text-align: center;">11 de Agosto</p>
+    </div>
+    <div class="spacer" style="width: 300px; height: 30px;"></div>
+    <div>
+      <img src="img/Dahunf8nQnaNJ5gAEANZ_ImagenMenudesplegable.png" style="display: block; width: 35%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <ion-searchbar [(ngmodel)]="miBuscador" [showcancelbutton]="miStringDeCancell" (ioninput)="onInput($event)" (ioncancel)="onCancel($event)">
+    </ion-searchbar>
+  </ion-content>
+</ion-view>
